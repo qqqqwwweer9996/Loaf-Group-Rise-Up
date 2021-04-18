@@ -1,6 +1,6 @@
-if getgenv().userlol = 1 then
+if getgenv().userlol == 1 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/HazeWasTaken/Loaf-Group-Rise-Up/main/followmain.lua'))()
-elseif getgenv().userlol = 2 then
+elseif getgenv().userlol == 2 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/HazeWasTaken/Loaf-Group-Rise-Up/main/follow.lua'))()
 else
   game:GetService("Players").LocalPlayer:Kick("Dumbass give us a user number")
