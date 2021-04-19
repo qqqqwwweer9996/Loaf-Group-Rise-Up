@@ -1,4 +1,5 @@
 if getgenv().userlol == 1 then
+  getgenv().autorob = true
   loadstring(game:HttpGet('https://raw.githubusercontent.com/HazeWasTaken/Loaf-Group-Rise-Up/main/followmain.lua'))()
 elseif getgenv().userlol == 2 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/HazeWasTaken/Loaf-Group-Rise-Up/main/follow.lua'))()
