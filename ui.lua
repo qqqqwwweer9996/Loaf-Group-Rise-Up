@@ -150,16 +150,3 @@ ambientShadow_2.ScaleType = Enum.ScaleType.Slice
 ambientShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
 
 
-local library = {}
-
-function library:SetTitle(text)
-    local text = text or ""
-    HeadingText.Text = text
-end
-
-function library:SetText(text)
-    local text = text or ""
-    TextLOL.Text = text
-end
-
-return library
