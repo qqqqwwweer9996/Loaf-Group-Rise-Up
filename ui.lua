@@ -81,9 +81,9 @@ HeadingText.Position = UDim2.new(0, 0, 0.0047169812, 0)
 HeadingText.Size = UDim2.new(0, 376, 0, 25)
 HeadingText.ZIndex = 7
 HeadingText.Font = Enum.Font.SourceSansSemibold
-HeadingText.Text = "lol"
+HeadingText.Text = "0_0"
 HeadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
-HeadingText.TextSize = 14.000
+HeadingText.TextSize = 13.000
 
 TextLOL.Name = "Text LOL"
 TextLOL.Parent = Frame
