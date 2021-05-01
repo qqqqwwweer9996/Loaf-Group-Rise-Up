@@ -104,7 +104,7 @@ HeadingLOL.BorderSizePixel = 0
 HeadingLOL.Position = UDim2.new(0, 0, 0.0047169812, 0)
 HeadingLOL.Size = UDim2.new(0, 376, 0, 25)
 HeadingLOL.Font = Enum.Font.SourceSansSemibold
-HeadingLOL.Text = "lol"
+HeadingLOL.Text = ""
 HeadingLOL.TextColor3 = Color3.fromRGB(255, 255, 255)
 HeadingLOL.TextSize = 17.000
 
