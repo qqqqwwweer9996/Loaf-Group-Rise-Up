@@ -83,7 +83,7 @@ HeadingText.ZIndex = 7
 HeadingText.Font = Enum.Font.SourceSansSemibold
 HeadingText.Text = "lol"
 HeadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
-HeadingText.TextSize = 17.000
+HeadingText.TextSize = 14.000
 
 TextLOL.Name = "Text LOL"
 TextLOL.Parent = Frame
@@ -150,3 +150,12 @@ ambientShadow_2.ScaleType = Enum.ScaleType.Slice
 ambientShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
 
 
+function SetTitle(text)
+    local text = text or ""
+    game:GetService("CoreGui").ScreenGui.Frame.HeadingText.Text = text
+end
+
+function SetText(text)
+    local text = text or ""
+    game:GetService("CoreGui").ScreenGui.Frame["Text LOL"].Text = text
+end
